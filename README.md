@@ -1,74 +1,35 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Barbershop Website – Estilo 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and stylish landing page for the fictional barbershop "Estilo", built with **React**, **Tailwind CSS**, and **Framer Motion**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Hero section with animated branding
+- Section highlighting brand values and experience
+- Weekly schedule layout with animated transitions
+- Smooth scroll-based section transitions
+- Responsive design in progress (mobile layout coming soon)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Note
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+The mobile layout is currently under development and will be added soon. Stay tuned for updates!
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Preview
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+![Estilo Preview 1](https://github.com/user-attachments/assets/d48a9330-1a85-47ee-b5df-28e188b802a5)
+![Estilo Preview 2](https://github.com/user-attachments/assets/f7ac3341-4041-415a-9396-a37f2f2f3e13)
+![Estilo Preview 3](https://github.com/user-attachments/assets/c92da652-655d-453f-8b9b-a9dd4d8011b8)
+![Estilo Preview 4](https://github.com/user-attachments/assets/ed3741c5-416b-44cf-a1fe-5a6f44eb476a)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Feel free to check the screenshots on the LinkedIn post https://www.linkedin.com/posts/nicolas-andrad3_react-frontend-tailwindcss-activity-7358210860797820930-MA1Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEiCGSIBktK-nCrRkP7Ju9APO61cOEyXguw
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# Barbershop-site
-Animated landing page for a fictional barbershop, built with Typescript, React, Tailwind CSS, and Framer Motion.
->>>>>>> 0b2d3a23e7980dd8bbf2e5f67017481eb8690ec2
+---
+
+
