@@ -36,21 +36,29 @@ const WhyEstilo: React.FC = () => {
       </motion.div>
 
       <motion.div
-        className="w-1/2 h-full flex flex-col justify-center items-center px-16 z-30 bg-[#111827]/90 text-center"
+        className="w-1/2 h-full flex flex-col justify-center items-center px-6 sm:px-16 z-30 bg-[#111827]/90 text-center"
         initial={{ x: "100%" }}
         animate={visible ? { x: 0 } : {}}
         transition={{ duration: 1, delay: 0.5 }}
       >
         <div className="max-w-md">
-          <h2 className="text-[60px] font-graffiti text-red-500 leading-none mb-6">
-            Why choose <span className="text-yellow-400 drop-shadow-[0_0_10px_rgba(255,255,0,0.8)]">Estilo</span>?
+          <h2 className="font-graffiti text-red-500 leading-none mb-4 sm:mb-6 text-[36px] sm:text-[60px]">
+            Why choose{" "}
+            <span className="text-yellow-400 drop-shadow-[0_0_10px_rgba(255,255,0,0.8)]">
+              Estilo
+            </span>
+            ?
           </h2>
-          <p className="text-lg text-red-300 mb-6">
-  At our barbershop, it's not just about cutting hair — it's about crafting identity. Our barbers don’t just follow trends; they shape them, blending tradition and edge in every detail.
-</p>
-<p className="text-lg text-red-300">
-  This is more than grooming. It’s where confidence starts. When you sit in our chair, you leave with more than a fresh look — you leave with attitude.
-</p>
+          <p className="text-base sm:text-lg text-red-300 mb-4 sm:mb-6">
+            At our barbershop, it's not just about cutting hair — it's about
+            crafting identity. Our barbers don’t just follow trends; they shape
+            them, blending tradition and edge in every detail.
+          </p>
+          <p className="text-base sm:text-lg text-red-300">
+            This is more than grooming. It’s where confidence starts. When you
+            sit in our chair, you leave with more than a fresh look — you leave
+            with attitude.
+          </p>
         </div>
       </motion.div>
     </section>
